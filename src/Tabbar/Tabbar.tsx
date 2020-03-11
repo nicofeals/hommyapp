@@ -4,14 +4,15 @@ import Tab from "./Tab";
 import Compass from "./icons/Compass";
 import Chat from "./icons/Chat";
 import Camera from "./icons/Camera";
-import Bell from "./icons/Bell";
+// import Bell from "./icons/Bell";
+import Lamp from "./icons/Lamp";
 import { ICON_SIZE, PADDING, SEGMENT } from "./icons/Constants";
 
 const tabs = [
   { icon: <Compass /> },
   { icon: <Chat /> },
   { icon: <Camera /> },
-  { icon: <Bell /> }
+  { icon: <Lamp /> }
 ];
 const styles = StyleSheet.create({
   container: {
